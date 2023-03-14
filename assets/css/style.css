@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Montez&display=swap');
+
+body{
+    background-color: #EEE4E1;
+}
+/* header and navigation */
+h1{
+    font-family : Montez, sans-serif;
+    color : black;
+    letter-spacing: 2px;
+}
+ #logo{
+    text-decoration: none;
+ }
+
+ .hero-image{
+    font-family : Montez, sans-serif;
+    color : black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+ }
+ .hero-image p{
+    font-family: "Hind Siliguri",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+ }

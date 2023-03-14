@@ -1,27 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Montez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Montez&display=swap');
+
+* {
+   margin : 0;
+   padding : 0;
+   border : none;
+}
 
 body{
-    background-color: #EEE4E1;
+   background-color: #f4f3ee;
 }
-/* header and navigation */
+
+/* Header */
+
+.header{
+   margin-top: 20px;
+   height : 120px;
+   background-color: #E6BEAE;
+   width: 100%;
+}
+
 h1{
+    float: right;
     font-family : Montez, sans-serif;
     color : black;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
+    margin-top: 30px;
+    margin-right: 30px;
 }
+
+/* Logo */
+
+#logo-image img{
+   height: 100px;
+   margin: 10px;
+   line-height: 75px;
+}
+
  #logo{
+    float: right;
     text-decoration: none;
+    font-size : 180%;
+    line-height: 75px;
  }
 
- .hero-image{
-    font-family : Montez, sans-serif;
-    color : black;
-    font-size: 30px;
-    text-align: center;
-    font-weight: 600;
+ /* Navigation */
+
+ .navigation{
+   margin-top: 10px;
+   height: 27px;
+   width: 100%;
+   background-color: #E6BEAE;;
  }
- .hero-image p{
-    font-family: "Hind Siliguri",sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+
+ #menu{
+   margin-top : 15px;
+   text-align: center;
+   overflow: hidden;
  }
+
+ #menu li{
+   display: inline;
+   padding-left: 80px;
+}
+
+ #menu a{
+   text-decoration: none;
+   font-family: "Hind Siliguri", sans-serif;
+   color: black;
+   letter-spacing: 1px;
+   font-weight: 300;
+ }
+
+ 

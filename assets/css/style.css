@@ -267,11 +267,24 @@ hr{
 }
 
 /* footer section */
-
-#footer{
+footer{
   margin-top: 20px;
-  height: 150px;
+  height : 150px;
   background-color: #E6BEAE;
 }
 
+#footer ul{
+  text-align : center;}
+
+#footer li{
+  display : inline;
+
+}
+
+#footer i{
+  font-size : 40px;
+  color : #3a3a3a;
+  margin-bottom: 5%;
+  padding: 6%;
+}
 

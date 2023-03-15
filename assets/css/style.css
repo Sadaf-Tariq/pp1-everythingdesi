@@ -172,8 +172,9 @@ hr{
 
  #highlights{
   margin-top: 18px;
-  height: 900px;
+  height: 1250px;
   background-color: #E6BEAE;
+
  }
 
  #highlights h2{
@@ -185,25 +186,62 @@ hr{
   color: #660708;
  }
 
- /* Biryani highlight */
- 
- #biryani{
-  height: 400px;
-  
- }
+ /* Biryani */
 
- /* sprciality section */
+ .highlight-bg{
+  height: 30px;
+  width: 100%;
+  padding: 0 0 20px 0;
+  font-family: "Hind Siliguri", sans-serif;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #660708;
+  margin: 10px 0 0 0; 
+ }
  
- .left-container{
-  float: left;
-     margin: 50px 0 0 30px;
-     width: 60vmin;
+ #biryani-container{
+     margin: 10px;
+     width: 166vmin;
      position: absolute;
      overflow: hidden;
      border-radius: 2%;
-     border: 10px solid #660708;
+     border: 5px solid #f4f3ee;
      box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
  }
+
+ /* Kebab */
+
+ #kebab-container{
+  margin-left: 10px;
+  width: 166vmin;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 2%;
+  border: 5px solid #f4f3ee;
+  box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+}
+
+#kebab-bg{
+  margin:350px 0 0 0;
+}
+
+/* Curry */
+
+#curry-container{
+  margin-left: 10px;
+  width: 166vmin;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 2%;
+  border: 5px solid #f4f3ee;
+  box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+}
+
+#curry-bg{
+  margin:350px 0 0 0;
+}
 
  .wrapper{
     width: 100%;
@@ -228,28 +266,12 @@ hr{
   height: 300px;
 }
 
-#right-container{
-  margin: 50px 30px 0 0;
-  clear: left;
-  float: right;
-  height: 320px;
-  width: 55%;
- 
-  text-align: center;
-  border-radius: 5px;
-  position: relative;
+/* footer section */
+
+#footer{
+  margin-top: 20px;
+  height: 150px;
+  background-color: #E6BEAE;
 }
 
-  #right-container h2{
-  margin-right: 200px;
-  text-align: center;
-  font-family: Montez, sans-serif;
-  font-size: 300%;
-  font-weight: bold;
-  letter-spacing: 4px;
-  color: #660708;
-  position: absolute;
-  border-bottom: 2px solid #660708;
-}
 
- 

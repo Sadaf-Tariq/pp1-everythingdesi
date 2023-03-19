@@ -188,83 +188,99 @@ hr{
 
  /* Biryani */
 
- .highlight-bg{
-  height: 30px;
-  width: 100%;
-  padding: 0 0 20px 0;
-  font-family: "Hind Siliguri", sans-serif;
-  text-align: center;
-  font-size: 200%;
-  font-weight: bold;
-  letter-spacing: 3px;
-  color: #3a3a3a;
-  margin: 10px 0 0 0; 
+ .border{
+  position: relative;
  }
- 
- #biryani-container{
-     margin: 10px;
-     width: 166vmin;
-     position: absolute;
-     overflow: hidden;
-     border-radius: 2%;
-     border: 5px solid #f4f3ee;
-     box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+
+ .border::before{
+       content: '';
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       border-bottom: 2px solid #3a3a3a;
+       width: 10px;
  }
+
+ #biryani{
+    padding: 20px;
+    width : 30%;
+    float: left;
+    height: 900px;
+ }
+
+ #biryani h2{
+  border-bottom: 1px solid black;
+ }
+
+ #briyani-img{
+    height : 300px;
+    width : 300px;
+    padding : 30px;
+    border-color : #f4f3ee;
+    border-style : solid;
+    border-width : 8px;
+    margin : 10px 0 0 0;
+    border-radius : 50%;
+    background: url("../images/biryani4.png") no-repeat center center;
+    background-size: cover;
+
+ }
+
 
  /* Kebab */
 
- #kebab-container{
-  margin-left: 10px;
-  width: 166vmin;
-  position: absolute;
-  overflow: hidden;
-  border-radius: 2%;
-  border: 5px solid #f4f3ee;
-  box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
-}
+ #kebab{
+   padding: 20px;
+   width : 30%;
+   float: right;
+   height: 900px;
+   margin-right: 20px;
+   margin-left: 10px;
 
-#kebab-bg{
-  margin:350px 0 0 0;
-}
-
-/* Curry */
-
-#curry-container{
-  margin-left: 10px;
-  width: 166vmin;
-  position: absolute;
-  overflow: hidden;
-  border-radius: 2%;
-  border: 5px solid #f4f3ee;
-  box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
-}
-
-#curry-bg{
-  margin:350px 0 0 0;
-}
-
- .wrapper{
-    width: 100%;
-    display: flex;
-    animation : slide 20s infinite;
  }
 
- /* slide animation */
-
- @keyframes slide{
-  0% { transform: translateX(0); }
-  25% { transform: translateX(0); }
-  30% { transform: translateX(-100%); }
-  35% { transform: translateX(-100%); }
-  55% { transform: translateX(-200%); }
-  75% { transform: translateX(-200%); }
-  80% { transform: translateX(-300%); }
-  100% { transform: translateX(-300%); }
+ #kebab h2{
+  border-bottom: 1px solid black;
+  
  }
-.wrapper img{
-  width: 100%;
-  height: 300px;
-}
+
+ #kebab-img{
+  height : 300px;
+  width : 300px;
+  padding : 30px;
+  border-color : #f4f3ee;
+  border-style : solid;
+  border-width : 8px;
+  margin : 10px 0 0 0;
+  border-radius : 50%;
+  background: url("../images/seekh-kebab.jpg") no-repeat center center;
+  background-size: cover;
+ }
+
+
+ /* Meetha */
+
+ #meetha{
+  padding: 20px;
+  width: 33%;
+  height: 900px;
+  margin: 0 auto;
+ }
+
+ #meetha-img{
+  height : 300px;
+  width : 300px;
+  padding : 30px;
+  border-color : #f4f3ee;
+  border-style : solid;
+  border-width : 8px;
+  margin : 10px 0 0 0;
+  border-radius : 50%;
+  background: url("../images/pexels-kulbir-7449105.jpg") no-repeat center center;
+  background-size: cover;
+ }
+
+
 
 /* footer section */
 footer{
@@ -308,6 +324,7 @@ span {
 }
 
 #contact p{
+  font-family: "Hind Siligurr", sans-serif;
   font-size: 18px;
 }
 
@@ -328,6 +345,7 @@ span {
 }
 
 #address p{
+  font-family: "Hind Siligurr", sans-serif;
   font-size: 18px;
 }
 

@@ -246,11 +246,11 @@ hr{
 
  #kebab{
    padding: 20px;
-   width : 30%;
+   width : 33%;
    float: right;
    height: 700px;
-   margin-right: 20px;
-   margin-left: 10px;
+   margin-left: 20px;
+   margin-right: -10px;
  }
 
  #kebab h2{
@@ -319,7 +319,7 @@ hr{
    width : 30%;
    height: 100%;
    float: right;
-  margin-right: 10px
+   margin-right: 10px
 
 }
 /* 

@@ -406,7 +406,7 @@ hr{
 
 #menu-container{
   margin-top: 20px;
-  height: 1800px;
+  height: 1600px;
   width: 100%;
   overflow: hidden;
   background-color: #E6BEAE;
@@ -466,6 +466,29 @@ hr{
   font-size:90%;
   font-family: 'Hind Siliguri', sans-serif;
   margin-bottom: -10px;
+}
+
+#button-container {
+  text-align: center;
+  height: 200px;
+  clear:both;
+}
+
+#button{
+  margin-top: 30px;
+  width: 150px;
+  height:60px;
+  border-radius: 3px;
+  background-color: #E6BEAE;
+}
+
+#button a{
+  font-size: 150%;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  text-decoration: none;
+  font-family: Montez, sans-serif;
+  color: #3a3a3a;
 }
 
 

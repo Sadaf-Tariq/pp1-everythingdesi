@@ -410,6 +410,12 @@ hr{
   width: 100%;
   overflow: hidden;
   background-color: #E6BEAE;
+  background: url("../images/bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#menu-container h2{
+  color: #fffff7;
 }
 
 .menu{
@@ -431,5 +437,27 @@ hr{
   float: right;
 }
 
+.heading-padding{
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.food-h{
+  margin-top: 25px;
+  margin-left: 20px;
+  padding-right: 10px;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: #fffff7;
+
+}
+
+.food-p{
+  font-family: 'Hind Siliguri', sans-serif;
+  margin-left: 20px;
+  margin-top: 0px;
+  padding-right: 10px;
+  color: #fffff7;
+  line-height: 18px;
+}
 
 

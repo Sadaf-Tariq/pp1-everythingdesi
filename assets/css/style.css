@@ -406,7 +406,7 @@ hr{
 
 #menu-container{
   margin-top: 20px;
-  height: 1600px;
+  height: 1500px;
   width: 100%;
   overflow: hidden;
   background-color: #E6BEAE;
@@ -491,4 +491,16 @@ hr{
   color: #3a3a3a;
 }
 
+/* photos */
+
+#photos{
+  clear : both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 1px;
+}
+
+#photos img{
+  width: 100%;
+}
 

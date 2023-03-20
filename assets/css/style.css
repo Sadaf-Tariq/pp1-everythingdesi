@@ -194,12 +194,13 @@ hr{
  }
 
  .border::before{
-       content: '';
-       position: absolute;
-       bottom: 0;
-       left: 0;
-       border-bottom: 2px solid #3a3a3a;
-       width: 10px;
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  bottom: 0;
+  left: 28%;
+  border-bottom: 1px solid #3a3a3a;
  }
 
  .description{
@@ -218,7 +219,7 @@ hr{
     padding: 20px;
     width : 30%;
     float: left;
-    height: 900px;
+    height: 700px;
  }
 
  #biryani h2{
@@ -247,10 +248,9 @@ hr{
    padding: 20px;
    width : 30%;
    float: right;
-   height: 900px;
+   height: 700px;
    margin-right: 20px;
    margin-left: 10px;
-
  }
 
  #kebab h2{
@@ -278,7 +278,7 @@ hr{
  #dessert{
   padding: 20px;
   width: 33%;
-  height: 900px;
+  height: 700px;
   margin: 0 auto;
  }
 
@@ -298,12 +298,31 @@ hr{
 
 
 /* footer section */
-footer{
+#footer{
   margin-top: 20px;
-  height : 80px;
+  height : 100px;
   background-color: #E6BEAE;
+  overflow: hidden;
 }
 
+#footer-left{
+  padding: 20px;
+  width: 62%;
+  height: 100%;
+  float: left;
+  margin-left: 10px;
+
+}
+
+#footer-right{
+   padding: 20px;
+   width : 30%;
+   height: 100%;
+   float: right;
+  margin-right: 10px
+
+}
+/* 
 #footer-div { 
   overflow: hidden; 
   text-align: center;
@@ -315,7 +334,7 @@ span {
   margin: 8px 100px 20px 0;
   padding: 10px;
 }
-
+*/
 
 /* footer logo */
 
@@ -326,7 +345,8 @@ span {
 #contact {
   margin-bottom: 10px;
   padding-bottom: 20px;
-  padding: 10px;
+  float: left;
+  margin-left: 80px;
 }
 
 #contact h3{
@@ -334,20 +354,25 @@ span {
   font-size : 18px;
   letter-spacing: 2px;
   color : #3a3a3a;
+  margin-left: 15px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #3a3a3a;
+
 }
 
 #contact p{
   font-family: "Hind Siligurr", sans-serif;
   font-size: 18px;
+  margin-left: 10px;
 }
 
+
 /* address */
+
 
 #address{
   margin-bottom: 10px;
   margin-left: 100px;
+  float: right;
 }
 
 #address h3{
@@ -356,7 +381,8 @@ span {
   letter-spacing: 2px;
   color : #3a3a3a;
   margin-bottom: 10px;
-  border-bottom: 1px solid #3a3a3a;
+  text-align: center;
+
 }
 
 #address p{
@@ -367,8 +393,9 @@ span {
 
 /* social media */
 
+
 #footer-sm{
-  margin-left: 70px;
+  margin-left: 150px;
 }
 
 #footer-sm ul{
@@ -386,7 +413,7 @@ span {
   letter-spacing: 2px;
   color : #3a3a3a;
   margin-bottom: 10px;
-  border-bottom: 1px solid #3a3a3a;
+  margin-left: 10px;
 }
 
 #footer-sm a{
@@ -396,6 +423,7 @@ span {
   margin-left: 5px;
   padding-top: 10px;
 }
+
 
 
 

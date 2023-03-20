@@ -172,7 +172,7 @@ hr{
 
  #highlights{
   margin-top: 18px;
-  height: 1250px;
+  height: 800px;
   background-color: #E6BEAE;
 
  }
@@ -189,6 +189,7 @@ hr{
  /* Biryani */
 
  .border{
+  margin: 15px;
   position: relative;
  }
 
@@ -201,6 +202,18 @@ hr{
        width: 10px;
  }
 
+ .description{
+
+  margin: 20px;
+  padding: 10px;
+  font-family: 'Hind Siliguri', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight:200
+
+ }
+
+
  #biryani{
     padding: 20px;
     width : 30%;
@@ -209,6 +222,7 @@ hr{
  }
 
  #biryani h2{
+  margin: 15px;
   border-bottom: 1px solid black;
  }
 
@@ -223,9 +237,9 @@ hr{
     border-radius : 50%;
     background: url("../images/biryani4.png") no-repeat center center;
     background-size: cover;
-
  }
 
+ 
 
  /* Kebab */
 
@@ -240,6 +254,7 @@ hr{
  }
 
  #kebab h2{
+  margin: 15px;
   border-bottom: 1px solid black;
   
  }
@@ -258,16 +273,16 @@ hr{
  }
 
 
- /* Meetha */
+ /* Dessert */
 
- #meetha{
+ #dessert{
   padding: 20px;
   width: 33%;
   height: 900px;
   margin: 0 auto;
  }
 
- #meetha-img{
+ #dessert-img{
   height : 300px;
   width : 300px;
   padding : 30px;

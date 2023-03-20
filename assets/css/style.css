@@ -425,6 +425,8 @@ hr{
   border-radius: 5px;
   border-color: #3a3a3a;
   border: 2px solid black;
+ /* animation-name: hero-image-animation;
+  animation-duration: 10s; */
 }
 
 #menu-1, #menu-3{
@@ -458,6 +460,12 @@ hr{
   padding-right: 10px;
   color: #fffff7;
   line-height: 18px;
+}
+
+.price{
+  font-size:90%;
+  font-family: 'Hind Siliguri', sans-serif;
+  margin-bottom: -10px;
 }
 
 

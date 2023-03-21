@@ -28,16 +28,9 @@ h2{
   color: #3a3a3a;
  }
 
-
-hr{
-  border-top: 2px solid #3a3a3a;
-  width : 100%;
-  
-}
 /* Header */
 
 .header{
-   margin-top: 20px;
    height : 120px;
    background-color: #E6BEAE;
    width: 100%;
@@ -61,14 +54,13 @@ hr{
  /* Navigation */
 
  .navigation{
-   margin-top: 10px;
    height: 27px;
    width: 100%;
    background-color: #E6BEAE;;
  }
 
  #menu{
-   margin-top : 15px;
+   margin-top : 5px;
    text-align: center;
    overflow: hidden;
  }
@@ -109,11 +101,13 @@ hr{
  /* Hero image*/
 
  #hero-outer{
-   margin-top: 15px;
+   margin-top: 5px;
    width: 100%;
    height: 500px;
    overflow: hidden;
    position: relative;
+   border-top: 5px solid #E6BEAE;
+   border-bottom: 5px solid #E6BEAE;
  }
 
  #hero-image{
@@ -154,7 +148,7 @@ hr{
  /* Our Kitchen section*/
 
  #kitchen{
-  margin: 18px 0 0 0;
+  margin-top: 5px;
   height: 200px;
   background-color: #E6BEAE;
   padding: 30px
@@ -171,8 +165,12 @@ hr{
 
  /* Our Spreciality section */
 
+
+  .heading-padding{
+    padding-top: 15px;
+  }
  #highlights{
-  margin-top: 18px;
+  margin-top: 5px;
   height: 800px;
   background-color: #E6BEAE;
 
@@ -192,11 +190,10 @@ hr{
   height: 1px;
   bottom: 0;
   left: 28%;
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 2px solid #3a3a3a;
  }
 
  .description{
-
   margin: 20px;
   padding: 10px;
   font-family: 'Hind Siliguri', sans-serif;
@@ -209,14 +206,13 @@ hr{
 
  #biryani{
     padding: 20px;
-    width : 30%;
+    width : 33%;
     float: left;
-    height: 700px;
+    height: 600px;
  }
 
  #biryani h2{
   margin: 15px;
-  border-bottom: 1px solid black;
  }
 
  #briyani-img{
@@ -226,7 +222,7 @@ hr{
     border-color : #f4f3ee;
     border-style : solid;
     border-width : 8px;
-    margin : 10px 0 0 0;
+    margin : 0 auto;
     border-radius : 50%;
     background: url("../images/biryani4.png") no-repeat center center;
     background-size: cover;
@@ -240,15 +236,13 @@ hr{
    padding: 20px;
    width : 33%;
    float: right;
-   height: 700px;
+   height: 600px;
    margin-left: 20px;
    margin-right: -10px;
  }
 
  #kebab h2{
   margin: 15px;
-  border-bottom: 1px solid black;
-  
  }
 
  #kebab-img{
@@ -262,6 +256,7 @@ hr{
   border-radius : 50%;
   background: url("../images/seekh-kebab.jpg") no-repeat center center;
   background-size: cover;
+  margin : 0 auto;
  }
 
 
@@ -270,18 +265,19 @@ hr{
  #dessert{
   padding: 20px;
   width: 33%;
-  height: 700px;
+  height: 600px;
   margin: 0 auto;
+ 
  }
 
  #dessert-img{
+  margin-left: 26px;
   height : 300px;
   width : 300px;
   padding : 30px;
   border-color : #f4f3ee;
   border-style : solid;
   border-width : 8px;
-  margin : 10px 0 0 0;
   border-radius : 50%;
   background: url("../images/pexels-kulbir-7449105.jpg") no-repeat center center;
   background-size: cover;
@@ -291,7 +287,7 @@ hr{
 
 /* footer section */
 #footer{
-  margin-top: 20px;
+  margin-top: 5px;
   height : 100px;
   background-color: #E6BEAE;
   overflow: hidden;
@@ -401,13 +397,15 @@ hr{
 /* Menu container */
 
 #menu-container{
-  margin-top: 20px;
-  height: 1500px;
+  margin-top: 5px;
+  height: 1450px;
   width: 100%;
   overflow: hidden;
   background-color: #E6BEAE;
   background: url("../images/bg.jpg") no-repeat center center;
   background-size: cover;
+  border-top: 5px solid #E6BEAE;
+  border-bottom: 5px solid #E6BEAE;
 }
 
 #menu-container h2{
@@ -421,8 +419,6 @@ hr{
   border-radius: 5px;
   border-color: #3a3a3a;
   border: 2px solid black;
- /* animation-name: hero-image-animation;
-  animation-duration: 10s; */
 }
 
 /* Menus */
@@ -474,15 +470,16 @@ hr{
   clear:both;
 }
 
-#button{
+.button{
   margin-top: 30px;
   width: 150px;
   height:60px;
   border-radius: 3px;
   background-color: #E6BEAE;
+  border: 1px solid black;
 }
 
-#button a{
+.button a{
   font-size: 150%;
   letter-spacing: 2px;
   font-weight: bolder;
@@ -491,19 +488,32 @@ hr{
   color: #3a3a3a;
 }
 
+.button:hover{
+  background-color: #3a3a3a;
+  color: whitesmoke;
+}
+
+.button:hover a{
+  color: whitesmoke;
+}
+
 /* Gallery page */
 
 /* photos */
 
 #photos{
+  margin-top: 5px;
   clear : both;
   line-height: 0;
   column-count: 4;
-  column-gap: 1px;
+  column-gap: 5px;
+  border-top: 5px solid #E6BEAE;
+  background-color: #E6BEAE;
 }
 
 #photos img{
   width: 100%;
+  padding: 2px;
 }
 
 /* Contact us page */
@@ -511,12 +521,14 @@ hr{
 /* Form Section */
 
 #form-container{
-  margin: 20px 0 20px 0;
+  margin: 5px 0 5px 0;
   height: 1000px;
   background-color: #E6BEAE;
   background: url("../images/contactform-bg.jpg") no-repeat center center;
   background-size: cover;
   background-position: center;
+  border-top: 5px solid #E6BEAE;
+  border-bottom: 5px solid #E6BEAE;
 }
 
 .form{
@@ -599,18 +611,39 @@ hr{
   margin: 5px 0 0 10px;
   width: 20%;
   height: 50px;
-  border: 2px solid #E6BEAE;
+  border: 1px solid black;
   border-radius: 2px;
   background-color: #E6BEAE;
   font-family: Montez, sans-serif;
   font-weight: bolder;
   color: #3a3a3a;
   font-size: 120%;
-  letter-spacing: 2px;;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
 .submit-button:hover{
   background-color: #3a3a3a;
   color:white;
   border: #3a3a3a;
+}
+
+/* Thank you page */
+
+.message{
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 50%;
+  height: 200px;
+  background-color: rgba(128,128, 128, 0.3);
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.message-heading{
+  margin: 50px 20px 20px;
+  color: black;
+  font-size: 200%;
+  font-weight: bolder;
 }

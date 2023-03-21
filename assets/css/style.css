@@ -516,36 +516,38 @@ hr{
   background-color: #E6BEAE;
   background: url("../images/contactform-bg.jpg") no-repeat center center;
   background-size: cover;
+  background-position: center;
 }
 
 .form{
-  margin: 80px;
+  margin: 80px 0 0 80px;
   background-color: rgba(128,128, 128, 0.4);
   width: 33%;
-  height: 500px;
+  height: 800px;
 }
 
 #form-left{
   float: left;
 }
 
-#kitchen-p, #form-left p{
-  margin: 10px 0 0 10px;
+#form-left p{
+  margin: 0 0 10px 10px;
   font-family: 'Hind Siliguri', sans-serif;
   text-align: center;
   letter-spacing: 1px;
-  font-weight:300;
 }
 #form-left h2{
   color: black;
 }
 #form-left h4{
-  margin-top: 10px;
   font-family: 'Hind siliguri', sans-serif;
   font-size: 110%;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-align: center;
 }
+
 #form-right{
+  margin-right: 150px;
   float: right;
+  width: 40%;
 }

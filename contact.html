@@ -54,47 +54,62 @@
         <div id="form-right" class="form">
             <form class="enquiry" action="https://formdump.codeinstitute.net/" method="post">  
                 <h2> Make an enquiry </h2>
-                <label for="fname">First Name:</label>
+                <label class="label" for="fname">First Name:</label>
+                <br>
                 <input class="text-input" id="fname" type="text" name="first_name" required>
+                <br>
 
-                <label for="lname">Last Name:</label>
+                <label class="label" for="lname">Last Name:</label>
+                <br>
                 <input class="text-input" id="flame" type="text" name="last_name" required>
+                <br>
 
-                <label for="email">Email Address:</label>
+                <label class="label" for="email">Email:</label>
+                <br>
                 <input class="text-input" id="email" type="email" name="email_address" required>
+                <br>
 
-                <label for="service">Service:</label>
-                <input list="service" name="service">
+                <label class="label" for="service">Service:</label>
+                <input class="text-input dropdown" list="service" name="service">
                 <datalist id="service">
                     <option value="BBQ"></option>
                     <option value="Buffet"></option>
                     <option value="Dinner"></option>
                 </datalist>
+                <br>
 
-                <label for="data">Date</label>
-                <input class="date-input" id="date" type="date" name="date" required>
+                <label class="label" for="data">Date:</label>
+                <input class="text-input date-input" id="date" type="date" name="date" required>
+                <br>
 
-                <label for="guests">No. Of Guests:</label>
-                <input class="quantity" id="guests" name="guests" type="number" required>
+                <label class="label" for="guests">No. Of Guests:</label>
+                <input class="text-input quantity" id="guests" name="guests" type="number" required>
+                <br>
 
-                <p>Diet:</p>
-                <input class="text-input" id="veg" name="diet" type="radio" value="veg">
-                <label for="veg">Veg</label><br>
-                <input class="text-input" id="non-veg" name="diet" type="radio" value="non-veg">
-                <label for="non-veg">Non-veg</label><br>
-                <input class="text-input" id="both" name="diet" type="radio" value="both">
-                <label for="both">Both</label><br>
+                <p class="label">Diet:</p>
+                <input class="radio" id="veg" name="diet" type="radio" value="veg">
+                <label for="veg">Veg</label>
+                <input id="non-veg" name="diet" type="radio" value="non-veg">
+                <label for="non-veg">Non-veg</label>
+                <input id="both" name="diet" type="radio" value="both">
+                <label for="both">Both</label>
+                <br>
+                <br>
 
-                <label for="address1">Address Line 1:</label>
-                <input class="address" id="address1" name="address1" type="text" required>
+                <label class="label" for="address1">Address Line 1:</label>
+                <input class="text-input" id="address1" name="address1" type="text" required>
+                <br>
 
-                <label for="address2">Address Line 2:</label>
-                <input class="address" id="address2" name="address2" type="text" required>
+                <label class='label' for="address2">Address Line 2:</label>
+                <input class="text-input" id="address2" name="address2" type="text" required>
+                <br>
 
-                <label for="message">You Message:</label>
-                <textarea class="text-area" id="message" name="message" rows="10" cols="30"></textarea>
+                <label class="label" for="message">You Message:</label>
+                <br>
+                <textarea class=" text-input text-area" id="message" name="message" rows="10" cols="30"></textarea>
+                <br>
           
-                <input class="contatc-button" type="submit" Value="Submit!">
+                <input class="submit-button" type="submit" Value="Submit!">
             </form>
         </div>
 </section>

@@ -60,6 +60,7 @@ h2{
  }
 
  #menu{
+  margin-right: 60px;
    margin-top : 5px;
    text-align: center;
    overflow: hidden;
@@ -151,7 +152,6 @@ h2{
   margin-top: 5px;
   height: 200px;
   background-color: #E6BEAE;
-  padding: 30px
  }
 
  #kitchen-p{
@@ -282,8 +282,6 @@ h2{
   background: url("../images/pexels-kulbir-7449105.jpg") no-repeat center center;
   background-size: cover;
  }
-
-
 
 /* footer section */
 #footer{
@@ -710,12 +708,12 @@ h2{
         }
 
         #menu-container{
-          height: 2800px;
+          height: 2600px;
         }
 
         .menu{
           width: 60%;
-          height: 600px;
+          height: 550px;
         }
 
         #menu-1,#menu-3{
@@ -760,7 +758,7 @@ h2{
 
 /* From medium screen sizes from 950px wide and down*/
 
-@media screen and (max-width: 930px){
+@media screen and (max-width: 950px){
   #menu li{
     padding-left: 30px;
  }
@@ -770,7 +768,7 @@ h2{
  }
 
  #highlights{
-  height: 1400px;
+  height: 1430px;
  }
 
  #biryani{
@@ -817,10 +815,35 @@ h2{
     column-count: 3;;
   }
 
-  #footer-sm a{
-    padding-right: 3px;
+  #footer-sm{
+    margin-left: 5px;
   }
 
+  #footer-sm a{
+    padding-right: 0;
+  }
+
+  
+  .form{
+    margin: 80px 0 0 30px;
+  }
+
+  #form-right{
+    margin-right: 50px;
+    width: 50%;
+  }
+
+
+  .quantity{
+    width: 43%;
+  }
+  
+  .message-heading{
+    margin: 35px 10px 10px 10px;
+    color: black;
+    font-size: 200%;
+    font-weight: bolder;
+  }
   
 .submit-button{
  
@@ -830,3 +853,169 @@ h2{
 }
 
 }
+
+/* For small screen sizes 800px or down*/
+
+@media screen and (max-width: 800px)
+{
+
+  h1{
+    float: right;
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 190%;
+  }
+  h2{
+    font-size: 200%;
+    letter-spacing: 2px;
+    padding-top: 10px;
+   }
+
+   .header{
+    height : 70px;
+  } 
+  #logo-image img{
+    height: 55px;
+    margin: 0;
+  }
+  #logo{
+     font-size : 90%;
+  }
+
+  .navigation{
+    height: auto;
+    width: 100%;
+    background-color: #E6BEAE;
+  }
+
+  #menu li{
+    position: static;
+    display:inline-block;
+    padding-left:20px;
+ }
+
+ #menu a{
+  text-decoration: none;
+  font-family: "Hind Siliguri", sans-serif;
+  letter-spacing: 0;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+.image-banner {  
+  color: white;
+  font-size: 130%;
+  text-align: center;
+  padding-left: 0;
+}
+
+#kitchen{
+  margin-top: 5px;
+  height: auto;
+  background-color: #E6BEAE;
+ }
+
+ #kitchen-p{
+  margin: 5px;
+  padding: 8px;
+  letter-spacing: 1;
+  font-weight:200;
+  color: black;
+  line-height: 20px;
+  font-size: 90%;
+ }
+
+  #highlights{
+    height: auto;
+   }
+
+ 
+ #biryani{
+  width : 90%;
+  height: auto;
+  }
+
+  #biryani h2, #kebab h2, #dessert h2{
+    padding-top: 0;
+   }
+
+  #briyani-img{
+    height : 150px;
+    width : 150px;
+    margin: 0 auto;
+  }
+  
+  #kebab{
+    width : 90%;
+    height: auto;
+    margin-right: 12px;
+  }
+  
+  #kebab-img{
+    height : 150px;
+    width : 150px;
+    margin: 0 auto;
+  }
+  
+  #dessert{
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+  }
+  
+   #dessert-img{
+    margin: 0 auto;
+    height : 150px;
+    width : 150px;
+   }
+  
+   .description{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+   }
+
+   #footer{
+    height : auto;
+  }
+
+  #footer-left{
+    display: none;
+  }
+  
+  #footer-right{
+     padding: 0;
+     margin: 0;
+     width : 100%;
+     height: auto;
+     clear: right;
+     text-align: center;
+  }
+  
+  #contact {
+    display:none;
+  }
+  #address{
+    display:none;
+  }
+
+#footer-sm{
+  margin-left: 0;
+}
+
+
+#footer-sm h3{
+  margin: 10px 0 0 0;
+}
+
+#footer-sm a{
+  font-size : 20px;
+  color : #3a3a3a;
+  padding-right: 10px;
+  margin-left: 5px;
+  padding-top: 10px;
+}
+
+}
+
+

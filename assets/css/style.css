@@ -444,7 +444,7 @@ h2{
   padding-right: 10px;
   font-family: 'Hind Siliguri', sans-serif;
   color: #fffff7;
-
+  border-bottom: 1px dashed white;
 }
 
 .food-p{
@@ -686,18 +686,18 @@ h2{
         }
         
         #footer-right{
-           width : 25%;
+           width : 20%;
            float: right;  
         }
 
         #contact {
-          margin: 0 10 10px 20px;
+          margin: 0 0 0 15px;
           padding-bottom: 20px;
           float: left;
         }
 
         #address{
-          margin: 0 25px 10px 5px;
+          margin-left: 5px;
           float: right;
         }
 
@@ -705,31 +705,40 @@ h2{
           margin-left: 40px;
         }
 
-        .menu{
-          width: 48%;
-          height: 600px;
+        #footer-sm a{
+          padding-right: 5px;
         }
 
         #menu-container{
-          height: 1450px;
+          height: 2800px;
         }
 
-        #menu-1, #menu-3{
-          margin: 15px 15px 15px 5px;
-          float: left;
+        .menu{
+          width: 60%;
+          height: 600px;
+        }
+
+        #menu-1,#menu-3{
+          margin: 5% 20% 0 20%;
+
+        }
+
+        #menu-2, #menu-4{
+          margin: 5% 19.5% 0 20%;
         }
         
-        #menu-2, #menu-4{
-          margin: 15px 5px 15px 5px;
-          float: right;
+        .price{
+          margin-bottom: 10px;
         }
         
         .food-h{
-          margin-left: 2px;
+          margin: 0 15px 0 20px;
+          font-size: 90%;
         }
 
         .food-p{
-          margin-left: 2px;
+          margin: 0 15px 15px 20px;
+          font-size: 90%;
         }
         
         .form{
@@ -738,5 +747,86 @@ h2{
 
         #form-right{
           margin-right: 100px;
-        }    
+        } 
+        
+        .message-heading{
+          margin: 40px 10px 10px 10px;
+          color: black;
+          font-size: 200%;
+          font-weight: bolder;
+        }
+        
+}
+
+/* From medium screen sizes from 950px wide and down*/
+
+@media screen and (max-width: 930px){
+  #menu li{
+    padding-left: 30px;
+ }
+  
+ #kitchen{
+  height: 250px; 
+ }
+
+ #highlights{
+  height: 1400px;
+ }
+
+ #biryani{
+  width : 40%;
+  height: 600px;
+}
+ #briyani-img{
+    height : 250px;
+    width : 250px;
+ }
+
+ #kebab{
+  width : 40%;
+  height: 600px;
+  margin-right: 30px;
+}
+
+
+#kebab-img{
+ height : 250px;
+ width : 250px;
+}
+
+  #dessert{
+      clear:both;
+      width: 40%;
+      height: 650px;
+      margin: 0 auto;
+  }
+
+   #dessert-img{
+    margin-left: 0;
+    margin-right: 20px;
+    height : 250px;
+    width : 250px;;
+   }
+
+   .description{
+    margin: 0;
+    padding: 0;
+   }
+
+  #photos{
+    column-count: 3;;
+  }
+
+  #footer-sm a{
+    padding-right: 3px;
+  }
+
+  
+.submit-button{
+ 
+  font-size: 100%;
+  letter-spacing: 1px;
+ 
+}
+
 }

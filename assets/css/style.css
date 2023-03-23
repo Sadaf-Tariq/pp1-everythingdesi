@@ -1032,15 +1032,15 @@ h2{
 
 /**/
 
-@media screen and (max-width: 530px){
+@media screen and (max-width: 540px){
       
   .header{
-    height : 80px;
+    height : 70px;
   } 
   #logo-image img{
     margin-top:8px;
     height: 65px;
-    line-height: 10px;
+    line-height: 7px;
   }
 
   #logo{
@@ -1056,13 +1056,25 @@ h2{
   }
 
   #menu li{
-    padding : 0 0 0 10px;
+    padding : 0 0 0 5px;
     margin: 0 0 0 5px;
  }
  #menu a{
   letter-spacing: 0;
-  font-size: 80%;
+  font-size:70%;
 }
+}
+
+
+@media screen and (max-width: 330px){
+      
+  #logo-image img{
+    height: 60px;
+  }
+  #logo{
+     font-size : 90%;
+  }
+
 }
 
 

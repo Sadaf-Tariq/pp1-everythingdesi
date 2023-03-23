@@ -26,6 +26,7 @@ h2{
   font-weight: bold;
   letter-spacing: 4px;
   color: #3a3a3a;
+  padding-top: 5px;
  }
 
 /* Header */
@@ -204,7 +205,7 @@ h2{
 
  #biryani{
     padding: 20px;
-    width : 33%;
+    width : 30%;
     float: left;
     height: 600px;
  }
@@ -250,7 +251,6 @@ h2{
   border-color : #f4f3ee;
   border-style : solid;
   border-width : 8px;
-  margin : 10px 0 0 0;
   border-radius : 50%;
   background: url("../images/seekh-kebab.jpg") no-repeat center center;
   background-size: cover;
@@ -265,13 +265,12 @@ h2{
   width: 33%;
   height: 600px;
   margin: 0 auto;
- 
  }
 
  #dessert-img{
   height : 300px;
   width : 300px;
-  padding : 30px;
+  padding: 30px;
   border-color : #f4f3ee;
   border-style : solid;
   border-width : 8px;
@@ -279,7 +278,6 @@ h2{
   background: url("../images/pexels-kulbir-7449105.jpg") no-repeat center center;
   background-size: cover;
   margin : 0 auto;
-  margin-left: 6.5%;
  }
 
 /* footer section */
@@ -340,6 +338,7 @@ h2{
 #address{
   margin-bottom: 10px;
   float: right;
+  margin-right: 8%;
 }
 
 #address h3{
@@ -362,7 +361,8 @@ h2{
 
 
 #footer-sm{
-  margin-left: 155px;
+  float:right;
+  margin-right: 8%;
 }
 
 #footer-sm li{

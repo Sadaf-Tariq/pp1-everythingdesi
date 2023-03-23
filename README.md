@@ -16,9 +16,89 @@ Users of this website will be able to find all the information they need to know
 ![Responsive image](/assets/images/amiresponsive.png)
 
 # Features
-* Header
- ..* Header is present at the top of the page
+* The Header
 
+  * Featured at the top of the page, the header shows the logo of the website at the right of the right corner: everything DESI that links to the home page
+
+  * The logo image is present at the left corner of the header that also links to the home page
+
+  * The header clearly shows the name of the website with a font easy to understand and a color that contrasts with the background
+
+    ![Header Image](/assets/images/header.png)
+
+* Navigation
+
+  * Featured after the header, it contains the navigation links for the website present at the center of the navigation bar
+
+  * The navigation links are: Home, Menu, Gallery and contact us that links to the different pages of the website
+
+  * The navigation links make it easy for the user to find the different pages of the website and use the same color theme but different font
+
+    ![Navigation Bar](/assets/images/navigationbar.png)
+
+* Main Image and Banner
+
+  * This section of the page provides us with a delicate photograph of biryani in a dish, surrounded by spices. The image lets the user envision that the goal of the website is oriented to the desi food industry
+
+  * The main image also contains a banner with a semi-transparent background of the same color theme
+
+  * The cover image on the banner sums up the tone and premise of the website and strengthens the User's memory of the brand itself
+
+    ![Main image and banner](/assets/images/main-image.png)
+
+* The Kitchen
+
+  * This section of the page contains a brief description of what happens inside the kitchen to make the user feel trusted
+
+    ![The kitchen](/assets/images/kitchen.png)
+
+* The Highlight
+
+  * The highlight section gives the detail of everything DESI's specialty, this section ensures that the user do not loose their interest
+
+    ![our speciality](/assets/images/highlight.png)
+
+* The Footer
+
+  * The footer section encourages the user to keep in contact and provides a phone number, and street address where they can found
+
+  * The footer section also includes social media icons so that users can find the catering service on Facebook, Twitter, Youtube, and Instagram
+
+  * The  contact information on the footer section is valuable to users as it helps them to find or contact them if they need to
+
+    ![The footer](/assets/images/footer.png)
+
+* Menu Page
+
+  * The menu link on the navigation bar links the age to the Menu page, where a detailed menu is available for users to help them to find the right desi food they want to order for their important event
+
+  * It is the most important premise of the website as the majority of the users will be interested in this page hence why there is a separate page dedicated to this section and made in detail with a beautiful food background with the white font to ease accessibility
+
+    ![The menu](/assets/images/menu.png)
+
+​    
+
+* The Gallery
+
+  * The gallery link on the navigation bar takes the user to the gallery page where there are images available for the users 
+
+  * The gallery images of food served by everything DESI and their catering service give a clear picture to users and to make an informed decision
+
+    ![The gallery](/assets/images/gallery.png)
+
+* The Contact-us Page
+
+  * The contact-us link on the navigation bar takes the user to the Contact us page, which consists of two sections. The contact section encourages the user to keep in contact and provides a phone number, email address, and street address where they can found
+
+  * It also includes information about its opening to help the users to know when they should be contacted
+
+  * The enquiry section has a form for the users to give all the relevant information about the enquiry they want to make. This form feature establishes a connection between the user and the site
+
+    ![The contact us page](/assets/images/contact.png)
+
+  * When the user presses the submit with all the information, they are taken to a Thank you window, further, emphasizing interaction 
+
+    ![Thank you window](/assets/images/thankyou.png)
 
 # Testing
 

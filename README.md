@@ -2,11 +2,12 @@
 
 1. [General Information](#everything-DESI)
 2. [Features](#Features)
-3. [Testing](#Testing)
-4. [Bugs](#Bugs)
-5. [Validator Testing](#Validator-Testing)
-6. [Deployment](#Deployment)
-7. [Credits](#Credits)
+3. [Technologies Used](#Technologies-Used)
+4. [Testing](#Testing)
+5. [Bugs](#Bugs)
+6. [Validator Testing](#Validator-Testing)
+7. [Deployment](#Deployment)
+8. [Credits](#Credits)
 
 # About everything DESI
 The everything DESI website is a catering website for anyone who loves desi food. When deciding on a topic for the project. I wanted to do something I am passionate about. I love desi food and I love to cook, and catering service is something I want to do in the future so I concluded to do a catering website. The website offers spicy, rich, flavourful, and diverse desi cuisine.
@@ -99,13 +100,31 @@ Users of this website will be able to find all the information they need to know
   * When the user presses the submit with all the information, they are taken to a Thank you window, further, emphasizing interaction 
 
     ![Thank you window](/assets/images/thankyou.png)
+# Technologies Used
+
+#### Languages Used
+
+* HTML5
+* CSS3
 
 # Testing
+
+* I tested the website on different browsers such as Microsoft Edge, Opera, Firefox, Chrome, and Safari and it works on all browser
+* I confirm that this project is responsive, functions on all standard screen sizes, tested responsiveness using the developer tools, and looks good 
+* I confirm that the header, navigation bar, highlights, footer, menu, and form text are all readable and easy to understand
+* I have confirmed that the form works: requires entries in every field, will only accept emails in an email field, and the submit button works
 
 # Bugs
 
 # Validator Testing
 
 # Deployment
+
+# Credits
+
+* [Font awesome](https://fontawesome.com/) provided the icon for my header and cover text on the hero-image element
+* [w3schools](https://www.w3schools.com/) helped me in creating my form
+* [StackOverflow](https://www.stackoverflow.com) helped me to create a custom bottom border on the specialty section heading
+* The images used in the website were taken from [Pexels](https://www.pexels.com/)
 
 

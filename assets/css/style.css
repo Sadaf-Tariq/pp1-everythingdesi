@@ -1042,7 +1042,7 @@ h2{
 
 /* Media queries for smaller screen sizes from 330 px or down */
 
-@media screen and (max-width: 330px){
+@media screen and (max-width: 350px){
       
   #logo-image img{
     height: 58px;

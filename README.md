@@ -1,6 +1,6 @@
 # Index - Table Of Contents:
 
-1. [General Information](#everything-DESI)
+1. [General Information](#About-everything-DESI)
 2. [Features](#Features)
 3. [Technologies Used](#Technologies-Used)
 4. [Testing](#Testing)

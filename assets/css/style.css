@@ -29,15 +29,6 @@ h2{
   padding-top: 5px;
  }
 
- h3{
-  font-family: Montez, sans-serif;
-  font-size : 18px;
-  letter-spacing: 2px;
-  color : #3a3a3a;
-  margin-bottom: 10px;
-  text-align: center;
- }
-
 /* Header */
 
 .header{
@@ -150,14 +141,11 @@ h2{
    padding: 20px;
    position : absolute;
    bottom: 30px;
+   font-family: Montez , sans-serif;
+   font-size: 150%;
+   color: white;
  }
 
- .image-banner h3{
-  font-family: Montez , sans-serif;
-  font-size: 150%;
-  color: white;
-  text-align: left;
- }
  /* Our Kitchen section*/
 
  #kitchen{
@@ -181,12 +169,13 @@ h2{
   .heading-padding{
     padding-top: 15px;
   }
- #highlights{
-  margin-top: 5px;
-  height: 800px;
-  background-color: #E6BEAE;
 
- }
+  #highlights{
+    margin-top: 5px;
+    height: 800px;
+    background-color: #E6BEAE;
+
+  }
 
  /* Biryani */
 
@@ -278,7 +267,7 @@ h2{
   height: 600px;
   margin: 0 auto;
  }
-
+  
  #dessert-img{
   height : 300px;
   width : 300px;
@@ -324,13 +313,18 @@ h2{
 
 /* contact */
 
+.f-h-style{
+  font-family: Montez, sans-serif;
+  font-size : 18px;
+  letter-spacing: 2px;
+  color : #3a3a3a;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
 #contact {
   margin-bottom: 10px;
   padding-bottom: 20px;
-}
-
-#contact h3{
-  margin-bottom: 10px;
 }
 
 #contact p{
@@ -347,13 +341,9 @@ h2{
   margin-bottom: 10px;
 }
 
-#address h3{
-  margin-bottom: 10px;
-}
-
 #address p{
-  font-family: "Hind Siligurr", sans-serif;
-  font-size: 18px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 20px;
 }
 
 
@@ -369,10 +359,8 @@ h2{
 }
 
 #footer-sm h3{
-  margin-bottom: 10px;
   margin-left: 10px;
 }
-
 #footer-sm a{
   font-size : 20px;
   color : #3a3a3a;

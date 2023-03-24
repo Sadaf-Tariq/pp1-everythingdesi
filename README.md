@@ -130,7 +130,10 @@ Users of this website will be able to find all the information they need to know
 
   * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in developer tools
 
-    ![Lighthouse report](C:\Users\Generation UK&I\OneDrive\Desktop\Diploma\Project 1\lighthouse.png)
+    ![Lighthouse report](/assets/images/lighthouse.png)
+# Unfixed Bugs
+There is no unfixed bugs but there is a warning indicated by html validator for gallery.html page of the website, for my design I do not need any header for this section of the page that is why this warning was not entertained
+![Warning Image](/assets/images/warning.png)
 
 # Deployment
 

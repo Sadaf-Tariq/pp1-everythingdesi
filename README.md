@@ -118,6 +118,9 @@ Users of this website will be able to find all the information they need to know
 * I have confirmed that the form works: requires entries in every field, will only accept emails in an email field, and the submit button works
 
 # Bugs
+* When I tested my HTML code for the index.html page on html validator, I got the error that one of the div was unclosed which was causing another section to give another error, I solve the problem by removing that div element
+* Another error I found for the menu.html page, where I put an anchor element inside a button element, I solved that error by replacing the button to form 
+* For the style.css for the header element in a media query, I got an error because there was a margin selector that had a negative value, I solved that error by removing that selector
 
 # Validator Testing
 * HTML
@@ -136,6 +139,12 @@ There is no unfixed bugs but there is a warning indicated by html validator for 
 ![Warning Image](/assets/images/warning.png)
 
 # Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
 # Credits
 

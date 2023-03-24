@@ -344,6 +344,8 @@ h2{
 #address p{
   font-family: "Hind Siliguri", sans-serif;
   font-size: 20px;
+  line-height: 20px;
+  color: #3a3a3a;
 }
 
 
@@ -365,8 +367,8 @@ h2{
   font-size : 20px;
   color : #3a3a3a;
   padding-right: 10px;
-  margin-left: 5px;
-  padding-top: 10px;
+  margin: 1%;
+  padding: 5%;
 }
 
 
@@ -1035,22 +1037,30 @@ h2{
   letter-spacing: 0;
   font-size:70%;
 }
+#footer-sm a{
+  font-size : 18px;
+  color : #3a3a3a;
+  padding: 3%;
+  margin: 0;
+}
+
 }
 
 
 @media screen and (max-width: 330px){
       
   #logo-image img{
-    height: 60px;
+    height: 58px;
   }
   #logo{
-     font-size : 90%;
+     font-size : 85%;
   }
 
   #footer-sm a{
     font-size : 18px;
     color : #3a3a3a;
-    padding-top: 10px;
+    padding: 0;
+    margin: 0;
   }
 
 }

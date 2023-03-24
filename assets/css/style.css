@@ -276,7 +276,7 @@ h2{
   border-style : solid;
   border-width : 8px;
   border-radius : 50%;
-  background: url("../images/pexels-kulbir-7449105.jpg") no-repeat center center;
+  background: url("../images/dessert.jpg") no-repeat center center;
   background-size: cover;
   margin : 0 auto;
 }
@@ -451,31 +451,28 @@ h2{
 }
 
 .button{
+  font-size: 130%;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  text-decoration: none;
+  font-family: Montez, sans-serif;
+  color: #3a3a3a;
   margin-top: 30px;
   width: 150px;
   height:60px;
   border-radius: 3px;
   background-color: #E6BEAE;
   border: 1px solid black;
+  cursor: pointer;
 }
 
-.button a{
-  font-size: 150%;
-  letter-spacing: 2px;
-  font-weight: bolder;
-  text-decoration: none;
-  font-family: Montez, sans-serif;
-  color: #3a3a3a;
-}
+
 
 .button:hover{
   background-color: #3a3a3a;
   color: whitesmoke;
 }
 
-.button:hover a{
-  color: whitesmoke;
-}
 
 /* Gallery page */
 
@@ -545,7 +542,7 @@ h2{
   width: 40%;
 }
 
-/*f Form labels and inputs */
+/* Form labels and inputs */
 
 .label{
   margin-left:10px;
@@ -851,7 +848,6 @@ h2{
   }
   #logo{
      font-size : 120%;
-     line-height: -10px;
   }
 
   .navigation{
@@ -1004,7 +1000,7 @@ h2{
 
 }
 
-/**/
+/* Media queries for smaller screen sizes from 540px or down*/
 
 @media screen and (max-width: 540px){
       
@@ -1046,6 +1042,7 @@ h2{
 
 }
 
+/* Media queries for smaller screen sizes from 330 px or down */
 
 @media screen and (max-width: 330px){
       

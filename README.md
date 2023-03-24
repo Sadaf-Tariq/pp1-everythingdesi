@@ -15,7 +15,7 @@ The everything DESI website is a catering website for anyone who loves desi food
 
 Users of this website will be able to find all the information they need to know about everything DESI website: About the kitchen, specialty, full menu, the service gallery, contact information, and an enquiry form. This site is targeted towards people who love to eat desi food and wants a reliable catering service to cater their events.
 
-![Responsive image](/assets/images/amiresponsive.png)
+![Responsive image](/images/amiresponsive.png)
 
 # Features
 * The Header
@@ -26,7 +26,7 @@ Users of this website will be able to find all the information they need to know
 
   * The header clearly shows the name of the website with a font easy to understand and a color that contrasts with the background
 
-    ![Header Image](/assets/images/header.png)
+    ![Header Image](/images/header.png)
 
 * Navigation
 
@@ -36,7 +36,7 @@ Users of this website will be able to find all the information they need to know
 
   * The navigation links make it easy for the user to find the different pages of the website and use the same color theme but different font
 
-    ![Navigation Bar](/assets/images/navigationbar.png)
+    ![Navigation Bar](/images/navigationbar.png)
 
 * Main Image and Banner
 
@@ -46,19 +46,19 @@ Users of this website will be able to find all the information they need to know
 
   * The cover image on the banner sums up the tone and premise of the website and strengthens the User's memory of the brand itself
 
-    ![Main image and banner](/assets/images/main-image.png)
+    ![Main image and banner](/images/main-image.png)
 
 * The Kitchen
 
   * This section of the page contains a brief description of what happens inside the kitchen to make the user feel trusted
 
-    ![The kitchen](/assets/images/kitchen.png)
+    ![The kitchen](/images/kitchen.png)
 
 * The Highlight
 
   * The highlight section gives the detail of everything DESI's specialty, this section ensures that the user do not loose their interest
 
-    ![our speciality](/assets/images/highlight.png)
+    ![our speciality](/images/highlight.png)
 
 * The Footer
 
@@ -68,7 +68,7 @@ Users of this website will be able to find all the information they need to know
 
   * The  contact information on the footer section is valuable to users as it helps them to find or contact them if they need to
 
-    ![The footer](/assets/images/footer.png)
+    ![The footer](/images/footer.png)
 
 * Menu Page
 
@@ -76,7 +76,7 @@ Users of this website will be able to find all the information they need to know
 
   * It is the most important premise of the website as the majority of the users will be interested in this page hence why there is a separate page dedicated to this section and made in detail with a beautiful food background with the white font to ease accessibility
 
-    ![The menu](/assets/images/menu.png)
+    ![The menu](/images/menu.png)
 
 ​    
 
@@ -86,7 +86,7 @@ Users of this website will be able to find all the information they need to know
 
   * The gallery images of food served by everything DESI and their catering service give a clear picture to users to make an informed decision
 
-    ![The gallery](/assets/images/gallery.png)
+    ![The gallery](/images/gallery.png)
 
 * The Contact-us Page
 
@@ -96,11 +96,11 @@ Users of this website will be able to find all the information they need to know
 
   * The enquiry section has a form for the users to give all the relevant information about the enquiry they want to make. This form feature establishes a connection between the user and the site
 
-    ![The contact us page](/assets/images/contact.png)
+    ![The contact us page](/images/contact.png)
 
   * When the user presses the submit with all the information, they are taken to a Thank you window, further, emphasizing interaction 
 
-    ![Thank you window](/assets/images/thankyou.png)
+    ![Thank you window](/images/thankyou.png)
 # Technologies Used
 
 #### Languages Used
@@ -113,7 +113,7 @@ Users of this website will be able to find all the information they need to know
 * I tested the website on different browsers such as Microsoft Edge, Opera, Firefox, Chrome, and Safari and it works on all browser
 * I confirm that this project is responsive, functions on all standard screen sizes, tested responsiveness using the developer tools, and looks good 
 
-<img src="/assets/images/responsive(1).png"  width="750" height="500"> <img src="/assets/images/responsive(2).png"  width="300" height="500"> <img src="/assets/images/responsive(3).png"  width="500" height="700">
+<img src="/images/responsive(1).png"  width="750" height="500"> <img src="/images/responsive(2).png"  width="300" height="500"> <img src="/images/responsive(3).png"  width="500" height="700">
 
 * I confirm that the header, navigation bar, highlights, footer, menu, and form text are all readable and easy to understand
 * I have confirmed that the form works: requires entries in every field, will only accept emails in an email field, and the submit button works
@@ -125,7 +125,7 @@ Users of this website will be able to find all the information they need to know
 
 # Unfixed Bugs
 There is no unfixed bugs but there is a warning indicated by html validator for gallery.html page of the website, for my design I do not need any header for this section of the page that is why this warning was not entertained
-![Warning Image](/assets/images/warning.png)
+![Warning Image](/images/warning.png)
 
 # Validator Testing
 * HTML
@@ -135,7 +135,7 @@ There is no unfixed bugs but there is a warning indicated by html validator for 
 * Accessibility
   * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in developer tools
 
-    ![Lighthouse report](/assets/images/lighthouse.png)
+    ![Lighthouse report](/images/lighthouse.png)
 
 # Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:

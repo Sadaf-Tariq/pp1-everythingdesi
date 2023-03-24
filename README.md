@@ -111,7 +111,9 @@ Users of this website will be able to find all the information they need to know
 
 * I tested the website on different browsers such as Microsoft Edge, Opera, Firefox, Chrome, and Safari and it works on all browser
 * I confirm that this project is responsive, functions on all standard screen sizes, tested responsiveness using the developer tools, and looks good 
-![Responisve Image 1](/assets/images/responsive(1).png) ![Responisve Image 2](/assets/images/responsive(2).png) ![Responisve Image 3](/assets/images/responsive(3).png)
+
+<img src="/assets/images/responsive(1).png"  width="660" height="500"> <img src="/assets/images/responsive(2).png"  width="300" height="500"> <img src="/assets/images/responsive(3).png"  width="600" height="700">
+
 * I confirm that the header, navigation bar, highlights, footer, menu, and form text are all readable and easy to understand
 * I have confirmed that the form works: requires entries in every field, will only accept emails in an email field, and the submit button works
 

@@ -5,9 +5,10 @@
 3. [Technologies Used](#Technologies-Used)
 4. [Testing](#Testing)
 5. [Bugs](#Bugs)
-6. [Validator Testing](#Validator-Testing)
-7. [Deployment](#Deployment)
-8. [Credits](#Credits)
+6. [Unfixed bugs](#Unfixed-Bugs)
+7. [Validator Testing](#Validator-Testing)
+8. [Deployment](#Deployment)
+9. [Credits](#Credits)
 
 # About everything DESI
 The everything DESI website is a catering website for anyone who loves desi food. When deciding on a topic for the project. I wanted to do something I am passionate about. I love desi food and I love to cook, and catering service is something I want to do in the future so I concluded to do a catering website. The website offers spicy, rich, flavourful, and diverse desi cuisine.
@@ -39,7 +40,7 @@ Users of this website will be able to find all the information they need to know
 
 * Main Image and Banner
 
-  * This section of the page provides us with a delicate photograph of biryani in a dish, surrounded by spices. The image lets the user envision that the goal of the website is oriented to the desi food industry
+  * This section of the page provides us with a delicate photograph of biryani in a dish, surrounded by spices. The image with an eyecatching animation lets the user envision that the goal of the website is desi food industry oriented
 
   * The main image also contains a banner with a semi-transparent background of the same color theme
 
@@ -61,7 +62,7 @@ Users of this website will be able to find all the information they need to know
 
 * The Footer
 
-  * The footer section encourages the user to keep in contact and provides a phone number, and street address where they can found
+  * The footer section encourages the user to keep in contact and provides a phone number, and street address where they can be found
 
   * The footer section also includes social media icons so that users can find the catering service on Facebook, Twitter, Youtube, and Instagram
 
@@ -83,13 +84,13 @@ Users of this website will be able to find all the information they need to know
 
   * The gallery link on the navigation bar takes the user to the gallery page where there are images available for the users 
 
-  * The gallery images of food served by everything DESI and their catering service give a clear picture to users and to make an informed decision
+  * The gallery images of food served by everything DESI and their catering service give a clear picture to users to make an informed decision
 
     ![The gallery](/assets/images/gallery.png)
 
 * The Contact-us Page
 
-  * The contact-us link on the navigation bar takes the user to the Contact us page, which consists of two sections. The contact section encourages the user to keep in contact and provides a phone number, email address, and street address where they can found
+  * The contact-us link on the navigation bar takes the user to the Contact us page, which consists of two sections. The contact section encourages the user to keep in contact and provides a phone number, email address, and street address where they can be found
 
   * It also includes information about its opening to help the users to know when they should be contacted
 
@@ -118,25 +119,23 @@ Users of this website will be able to find all the information they need to know
 * I have confirmed that the form works: requires entries in every field, will only accept emails in an email field, and the submit button works
 
 # Bugs
-* When I tested my HTML code for the index.html page on html validator, I got the error that one of the div was unclosed which was causing another section to give another error, I solve the problem by removing that div element
+* When I tested my HTML code for the index.html page on html validator, I got the error that one of the div element was unclosed which was causing another section to give another error, I solved the problem by removing that div element
 * Another error I found for the menu.html page, where I put an anchor element inside a button element, I solved that error by replacing the button to form 
 * For the style.css for the header element in a media query, I got an error because there was a margin selector that had a negative value, I solved that error by removing that selector
 
-# Validator Testing
-* HTML
-  * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-
-* CSS
-  * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-* Accessibility
-
-  * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in developer tools
-
-    ![Lighthouse report](/assets/images/lighthouse.png)
 # Unfixed Bugs
 There is no unfixed bugs but there is a warning indicated by html validator for gallery.html page of the website, for my design I do not need any header for this section of the page that is why this warning was not entertained
 ![Warning Image](/assets/images/warning.png)
+
+# Validator Testing
+* HTML
+  * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+* CSS
+  * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+* Accessibility
+  * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in developer tools
+
+    ![Lighthouse report](/assets/images/lighthouse.png)
 
 # Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -144,13 +143,22 @@ There is no unfixed bugs but there is a warning indicated by html validator for 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://sadaf-tariq.github.io/pp1-everythingdesi/
 
 # Credits
+* Content
+  * [Font awesome](https://fontawesome.com/) provided the icon for my header and cover text on the hero-image element
+  * [w3schools](https://www.w3schools.com/) helped me in creating my form
+  * [w3schools](https://www.w3schools.com/) helped me in creating my button for the menu page
+  * [StackOverflow](www.stackoverflow.com) helped me to create a custom bottom border on the speciality section heading
+  * [StackOverflow](www.stackoverflow.com) helped me to remove the error I was getting for an anchor element inside the button element
+  * The code for the social media link for the footer was taken from Code Institute [Love Running](https://github.com/Sadaf-Tariq/love-running/blob/main/index.html) project
+  * The text for the home page was taken from [Wikipedia](www.wikipedia .com) and some open-source sites
+  * The logo image for the website was taken from [Wix](www.wix.com)
+  * I got the inspiration for the website from Zouq restaurant, Koyla restaurant, and David Smyth Catering
+  * [w3schools](https://www.w3schools.com/), [StackOverflow](www.stackoverflow.com),  and Code Institute's walkthrough project [Love Running](https://github.com/Sadaf-Tariq/love-running) helped me so much throughout my project
 
-* [Font awesome](https://fontawesome.com/) provided the icon for my header and cover text on the hero-image element
-* [w3schools](https://www.w3schools.com/) helped me in creating my form
-* [StackOverflow](https://www.stackoverflow.com) helped me to create a custom bottom border on the specialty section heading
-* The images used in the website were taken from [Pexels](https://www.pexels.com/)
+* Media
+  * The images used in the website were taken from [Pexels](https://www.pexels.com/)
 
 
